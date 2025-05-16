@@ -12,7 +12,7 @@ This is a cloud-integrated web application that fetches Plaid transaction data f
 ├── flask_backend.py                     # Flask backend to process and upload data
 ├── fetch_plaid_data.py                  # Fetch Data from Plaid API
 ├── data_processing.ipynb                # Data fetching from S3 and cleaning for uploading it to DynamoDB
-├── index.html
+├── index.html                           # Frontend Code File
 ├── _Con.pdf                             # Contibution File
 ├── ACM_Format_Report.pdf                # Report File
 ├── send_alert.py                        # SNS Alert code

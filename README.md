@@ -72,15 +72,6 @@ Make sure `app.py` is running for backend interaction.
 
 ---
 
-## 🧠 How It Works
-
-- Fetches `.json` transaction data from an S3 bucket
-- Uses `pandas` to normalize and clean transaction records
-- Converts float fields to `Decimal` for DynamoDB compatibility
-- Inserts data into a DynamoDB table (`UserTransactions`)
-
----
-
 ## ✅ Example Workflow
 
 ```bash
